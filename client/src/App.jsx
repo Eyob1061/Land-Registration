@@ -20,6 +20,8 @@ import SecureAdminLogin from './components/auth/SecureAdminLogin';
 
 // Admin Components
 import AdminDashboard from './components/admin/Dashboard';
+import GenerateReport from './components/admin/GenerateReport';
+import ManageUsers from './components/admin/ManageUsers';
 
 // Registration Office Components
 import RegistrationDashboard from './components/registration/RegistrationDashboard';
@@ -53,8 +55,8 @@ function App() {
             }
           >
             <Route path="dashboard" element={<AdminDashboard />} />
-            <Route path="users" element={<div>User Management</div>} />
-            <Route path="reports" element={<div>Reports</div>} />
+            <Route path="users" element={<ManageUsers />} />
+            <Route path="reports" element={<GenerateReport />} />
             <Route path="change-password" element={<ChangePassword />} />
           </Route>
 

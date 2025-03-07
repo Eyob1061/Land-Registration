@@ -17,13 +17,17 @@
     "@react-pdf/renderer": "^3.4.5",
     "formik": "^2.2.9",
     "html2canvas": "^1.4.1",
-    "jspdf": "^3.0.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.31",
     "qrcode": "^1.5.4",
     "qrcode.react": "^4.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.1",
     "react-signature-canvas": "^1.1.0-alpha.1",
+    "react-to-print": "^2.14.13",
+    "recharts": "^2.15.1",
+    "xlsx": "^0.18.5",
     "yup": "^1.1.1"
   },
   "devDependencies": {
